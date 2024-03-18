@@ -1,0 +1,25 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+
+@media screen and (min-width: 999px){
+
+    label{
+        font-size: larger;
+        margin-bottom: 0;
+    }
+
+    input{
+        margin-bottom: 2em;
+    }
+
+    .suYes{
+        margin-bottom: -1em;
+    }
+
+
+}
+

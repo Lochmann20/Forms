@@ -1,5 +1,5 @@
 ---
-
+import "../styles.css";
 ---
 
 <html lang="en">
@@ -11,6 +11,45 @@
 		<title>Astro</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<h1>Forms</h1>
+
+		<ol>
+			<!-- <li>Tekst</li> -->
+			<form class="form-container">
+				<label for="form_name">Navn</label>
+				<input id="form_name" type="text" name="name">
+
+				<!-- <label for="form_name">Password</label>
+				<input id="form_name" type="password" name="name"> -->
+
+				<label for="form_description">Description</label>
+				<input id="form_description" type="text" name="">
+
+				<label for="form_Ingredients">Ingredients</label>
+				<input id="form_Ingredients" type="text" name="">
+
+				<!-- Select? -->
+				<label for="form_Allergens">Allergens</label>
+				<input id="form_Allergens" type="text" name="">
+
+				<!-- Ved brug af type="checkbox", kan man krydse af ved tilføje og fjerne-->
+				<label for="form_diet">Diet</label>
+				<input id="form_diet" type="text" name="">
+				
+                <label for="form_studentFriendly">Student Friendly</label>
+                <label class="suYes" id="form_studentFriendly" for=”form_studentFiendly_yes”>Ja
+					<input id=”form_studentFriendly” type="radio" name=”studentFiendly”>
+				</label>
+                <label for= ”form_studentFiendly”>Nej
+					<input id=”form_studentFriendly” type="radio" name=”studentFiendly”>
+				</label>
+
+				<label for="Origin">Origin</label>
+				<input id="Origin" type="text" name="">
+
+				<label for="form_services">Services</label>
+				<input id="form_services" type="number" name="serves">
+			</form>
+		</ol>
 	</body>
 </html>
